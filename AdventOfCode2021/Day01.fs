@@ -8,3 +8,14 @@ let part1 () =
         |> Array.map (fun (x, y) -> y - x)
         |> Array.filter (fun x -> x > 0)
         |> Array.length
+
+let part2 () =
+    let input1 = input[0..input.Length - 1 - 2]
+    let input2 = input[1..input.Length - 1 - 1]
+    let input3 = input[2..input.Length - 1 - 0]
+    Array.zip3 input1 input2 input3
+        |> Array.map (fun (x1, x2, x3) -> x1 + x2 + x3)
+        |> Array.pairwise
+        |> Array.map (fun (x, y) -> y - x)
+        |> Array.filter (fun x -> x > 0)
+        |> Array.length
