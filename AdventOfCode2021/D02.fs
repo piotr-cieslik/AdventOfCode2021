@@ -1,6 +1,6 @@
-﻿module Day02
+﻿module D02
 
-let input = System.IO.File.ReadAllLines("Day02.txt")
+let input = System.IO.File.ReadAllLines("D02P1.txt")
 
 type Change = {Direction: string; Value: int}
 type Position = {X: int; Y: int}
