@@ -8,3 +8,6 @@ printfn "Day 1, part 2: %i" d1p2
 // Day 2
 let d2p1 = D02.part1()
 printfn "Day 2, part 1: %i" d2p1
+
+let d2p2 = D02.part2()
+printfn "Day 2, part 2: %i" d2p2

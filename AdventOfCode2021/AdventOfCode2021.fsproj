@@ -8,12 +8,10 @@
   <ItemGroup>
     <Compile Include="D01.fs" />
     <Compile Include="D02.fs" />
-    <Content Include="D02P1.txt">
+    <Content Include="D02.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup />
 
 </Project>
