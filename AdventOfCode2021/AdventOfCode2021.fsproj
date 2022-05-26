@@ -6,11 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="D01.fs" />
+    <Compile Include="D03.fs" />
+    <Content Include="D03.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D03.example.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Compile Include="D02.fs" />
     <Content Include="D02.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Compile Include="D01.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
